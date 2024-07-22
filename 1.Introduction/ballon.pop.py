@@ -12,8 +12,8 @@ pygame.display.set_caption("Balloon Pop")
 fps = 30
 clock = pygame.time.Clock()
 cap = cv2.VideoCapture(0)
-cap.set(3, 1280)  # width
-cap.set(4, 720)  # height
+cap.set(3, 1280)  
+cap.set(4, 720)  
 imgBalloon = pygame.image.load('../Resources/BalloonRed.png').convert_alpha()
 rectBalloon = imgBalloon.get_rect()
 rectBalloon.x, rectBalloon.y = 500, 300
